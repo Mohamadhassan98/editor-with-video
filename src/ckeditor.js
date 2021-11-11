@@ -27,13 +27,13 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
-import Video from './plugin/src/video';
-import AutoVideo from './plugin/src/autovideo.js';
-import VideoInsert from './plugin/src/videoinsert.js';
-import VideoResize from './plugin/src/videoresize.js';
-import VideoStyle from './plugin/src/videostyle.js';
-import VideoToolbar from './plugin/src/videotoolbar.js';
-import VideoUpload from './plugin/src/videoupload.js';
+import { Video } from './plugin/src';
+import { AutoVideo } from './plugin/src';
+import { VideoInsert } from './plugin/src';
+import { VideoResize } from './plugin/src';
+import { VideoStyle } from './plugin/src';
+import { VideoToolbar } from './plugin/src';
+import { VideoUpload } from './plugin/src';
 
 class Editor extends ClassicEditor {}
 
